@@ -43,11 +43,21 @@ Installation
 
     1. Clone the repository.
     2. Install dependencies:
-            npm intall
+            Follow the steps strictly to run the web app:
+                -Install React Application in the client
+                        $ npx create-react-app .
+                -Install Package.json in the server folder
+                        $ npm init
+                - Add Dependencies in the server
+                        $ npm add express mysql
+                        $ npm add cors
+                  
+          
     3. Set up MySQL workbench with a PasswordManager Schema and table passwords
-    4. Run the Server
+    4. Change the MySQL password in the db.query connection to match the password you use for MySQL Workbench.
+    5. Run the Server
             node index.js
-    5. Start React Front End
+    6. Start React Front End
 License
 
 This project is open-source and available under the MIT License.
